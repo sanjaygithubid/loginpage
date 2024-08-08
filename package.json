@@ -1,0 +1,11 @@
+{
+  "name": "array-and-loop",
+  "version": "1.0.0",
+  "main": "arrandloop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

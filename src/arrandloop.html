@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array and Loop</title>
+  <link rel="stylesheet" href="../src/arrandloop.css">
+  <script>
+
+    function submitBtn() {
+
+
+
+    }
+    function addTodo() {
+      var data = document.getElementById("txt").val;
+      document.getElementById("lblname").innerHTML = data;
+
+    }
+
+
+  </script>
+</head>
+
+<body>
+
+  <h1> Todo list in array and loop </h1>
+  <p>Todo list</p>
+  <div class="todo-input-grid">
+    <form>
+      <!-- to get text in textbox we use document qurrey selector method by class -->
+
+      <input type="text" placeholder="Todo name" id="txt" class="js-name-input name-input" onchange="submitBtn()">
+
+      <input type="date" class="js-due-date-input due-date-input">
+
+      <button onclick="addTodo()" class="add-todo-button">Add</button>
+    </form>
+    <p id="lblname"></p>
+  </div>
+  <!-- here we use div container to save all type element like parargraph, div etc  and put html code inside div element -->
+  <div class="js-todo-list todo-grid"></div>
+
+</body>
+
+</html>
